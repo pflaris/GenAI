@@ -1,5 +1,5 @@
 export default {
   "index": "Introdução",
-  "relatorio": "Relatório parcial",
+ // "relatorio": "Relatório parcial",
   "etapas": "Etapas"
 }
