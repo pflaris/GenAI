@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default {
   title: 'Estrada de Ideias',
-  logo: <span className='logo'> <Image src={logo} className='logo-img'></Image> <span>Estrada de Ideias</span></span>,
+  logo: <span className='logo'> <Image src={logo} className='logo-img'></Image> <span className='xl'>Estrada de Ideias</span></span>,
   color: {
     hue: 160,
   },
@@ -28,7 +28,7 @@ export default {
     const favicon = "/favicon.svg";
     return (
       <>
-        <title>GenAi</title>
+        <title>Estrada de Ideias</title>
         <meta name="description" content="Estrada de Ideias" />
         <link rel="shortcut icon" href={favicon} type="image/svg+xml" />
       </>
