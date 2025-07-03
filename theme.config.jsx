@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 
 export default {
-  title: 'GenAi',
+  title: 'Estrada de Ideias',
   logo: <span className='logo'> <Image src={logo} className='logo-img'></Image> <span>GenAi</span></span>,
   color: {
     hue: 160,
@@ -29,7 +29,7 @@ export default {
     return (
       <>
         <title>GenAi</title>
-        <meta name="description" content="GenAi" />
+        <meta name="description" content="Estrada de Ideias" />
         <link rel="shortcut icon" href={favicon} type="image/svg+xml" />
       </>
     );
