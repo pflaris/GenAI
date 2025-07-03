@@ -14,10 +14,12 @@ img {
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    font-size: larger;
+    color: #6fc055;
 }
 
 .logo-img {
-    width: 120px;
+    width: fit-content;
     height: 100%;
 }
 
