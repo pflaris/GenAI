@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default {
   title: 'Estrada de Ideias',
-  logo: <span className='logo'> <Image src={logo} className='logo-img'></Image> <span>GenAi</span></span>,
+  logo: <span className='logo'> <Image src={logo} className='logo-img'></Image> <span>Estrada de Ideias</span></span>,
   color: {
     hue: 160,
   },
