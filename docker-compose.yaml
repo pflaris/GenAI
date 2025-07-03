@@ -1,0 +1,7 @@
+services:
+    nextra:
+        build: .
+        container_name: nextra
+        ports:
+            - "3000:3000"
+#sudo docker compose --project-name portal-documentacoes  up --build -d
