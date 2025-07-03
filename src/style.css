@@ -1,0 +1,35 @@
+h1._text-slate-900 {
+    color: rgb(20, 199, 65);
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    width: 45%;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 120px;
+    height: 100%;
+}
+
+.logo>span {
+    text-wrap: nowrap;
+}
+
+code.language-bash span.token.keyword.git {
+    color: red;
+}
+
+.light ._text-primary-600 {
+    color: #074C49;
+    text-decoration: underline;
+}
